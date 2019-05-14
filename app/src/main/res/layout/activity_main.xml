@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".main.MainActivity" android:orientation="vertical">
+    <Button
+            android:id="@+id/btnDaily"
+            style="@style/btnBig"
+            android:text="@string/daily"
+            android:background="@color/colorBlue"
+            android:layout_weight="1"
+    />
+    <Button
+            android:id="@+id/btnGoals"
+            style="@style/btnBig"
+            android:text="@string/goals"
+            android:background="@color/colorGreen"
+            android:layout_weight="1"
+    />
+    <Button
+            android:id="@+id/btnHistory"
+            style="@style/btnBig"
+            android:text="@string/history"
+            android:background="@color/colorYellow"
+            android:layout_weight="1"
+    />
+    <Button
+            android:id="@+id/btnSettings"
+            style="@style/btnBig"
+            android:text="@string/settings"
+            android:background="@color/colorRed"
+            android:layout_weight="1"
+    />
+</LinearLayout>

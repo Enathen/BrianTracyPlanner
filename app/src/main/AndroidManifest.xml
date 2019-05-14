@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="growing.endless.creative.briantracyplanner">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".SettingsActivity"
+                android:label="@string/title_activity_settings">
+        </activity>
+        <activity
+                android:name=".GoalsActivity"
+                android:label="@string/title_activity_goals"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".HistoryActivity">
+        </activity>
+        <activity
+                android:name=".daily.DailyActivity"
+                android:label="@string/title_activity_daily"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

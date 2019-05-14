@@ -1,0 +1,25 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <!-- create gradient_green you want to use with the angle you want to use -->
+        <shape android:shape="rectangle" >
+            <gradient
+                    android:angle="-45"
+                    android:endColor="@color/colorYellow"
+                    android:startColor="@color/colorGreen" />
+
+        </shape>
+    </item>
+    <!-- create the stroke for top, left, bottom and right with the dp you want -->
+    <item
+            android:bottom="4dp"
+            android:left="4dp"
+            android:right="4dp"
+            android:top="4dp">
+        <shape android:shape="rectangle" >
+            <!-- fill the inside in the color you want (could also be a gradient_green again if you want to, just change solid to gradient_green and enter angle, start, maybe center, and end color) -->
+            <solid android:color="@color/colorPrimaryDark" />
+        </shape>
+    </item>
+
+</layer-list>

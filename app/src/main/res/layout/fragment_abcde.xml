@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="vertical"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/linLayTitle">
+                <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent" app:srcCompat="@drawable/help"
+                        app:tint="@color/colorBlue"
+                        android:id="@+id/ivLeft" android:layout_weight="1" android:visibility="visible"/>
+                <TextView
+
+                        android:text="@string/ABCDE"
+                        style="@style/title"
+                        android:textColor="@color/colorBlue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/title" android:layout_weight="1"/>
+                <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent" app:srcCompat="@drawable/arrow"
+                        app:tint="@color/colorBlue"
+                        android:id="@+id/ivRight" android:layout_weight="1"/>
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/tiA"
+                    android:layout_marginTop="8dp"
+                    android:textColorHint="@color/colorGreen"
+                    
+                    android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                        style="@style/editTextABCDE"
+                        android:id="@+id/etA"
+                        android:hint="@string/A"
+                        android:textColor="@color/colorGreen"
+
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/tiB"
+                    android:textColorHint="@color/colorBlue"
+                    
+                    android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                        style="@style/editTextABCDE"
+                        android:id="@+id/etB"
+                        android:hint="@string/B"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorBlue"
+                />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorYellow"
+                    
+                    android:id="@+id/tiC"
+                    android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                        style="@style/editTextABCDE"
+                        android:id="@+id/etC"
+                        android:hint="@string/C"
+                        android:textColor="@color/colorYellow"
+                />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/tiD"
+                    android:textColorHint="@color/colorOrange"
+
+                    android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                        style="@style/editTextABCDE"
+                        android:id="@+id/etD"
+                        android:hint="@string/D"
+                        android:textColor="@color/colorOrange"
+                />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tiE"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorRed"
+                    android:layout_height="match_parent"
+
+                    
+            >
+
+                <android.support.design.widget.TextInputEditText
+                        style="@style/editTextABCDE"
+                        android:id="@+id/etE"
+                        android:hint="@string/E"
+                        android:textColor="@color/colorRed"
+                />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

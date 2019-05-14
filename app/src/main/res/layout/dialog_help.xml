@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:gravity="center"
+              android:padding="16dp"
+              android:layout_height="wrap_content">
+    <TextView
+            android:text="ABCDE method"
+            style="@style/title"
+            android:textColor="@color/colorBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="Here you should insert what you thjink"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="10 goals"
+            style="@style/title"
+            android:textColor="@color/colorGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="You should provide 10 goals large to small"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="One Goal"
+            style="@style/title"
+            android:textColor="@color/colorYellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="focus on one goal from 10 goals and write how to get to this goal"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
