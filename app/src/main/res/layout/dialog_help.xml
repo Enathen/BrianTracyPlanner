@@ -4,37 +4,97 @@
               android:gravity="center"
               android:padding="16dp"
               android:layout_height="wrap_content">
-    <TextView
-            android:text="ABCDE method"
-            style="@style/title"
-            android:textColor="@color/colorBlue"
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:text="Here you should insert what you thjink"
-            style="@style/text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:text="10 goals"
-            style="@style/title"
-            android:textColor="@color/colorGreen"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:text="You should provide 10 goals large to small"
-            style="@style/text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:text="One Goal"
-            style="@style/title"
-            android:textColor="@color/colorYellow"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:text="focus on one goal from 10 goals and write how to get to this goal"
-            style="@style/text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:text="What to do"
+                    style="@style/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView"/>
+            <TextView
+                    android:text="This application currently exists of 3 slides, that you may fill out to make improvements in your life. You may leave any slide blank if you want to. Saving is done at the last slide at the bottom. Let me know if you want to add something into DailyGoals!"
+                    style="@style/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView2"/>
+            <TextView
+                    android:text="ABCDE method"
+                    style="@style/title"
+                    android:textColor="@color/colorBlue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="“A” stands for “very important;” something you must do. There can be serious negative consequences if you don’t do it."
+                    style="@style/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="“B” stands for “important;” something you should do. This is not as important as your ‘A’ tasks. There are only minor negative consequences if it is not completed."
+                    style="@style/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="“C” stands for things that are “nice to do;” but which are not as important as ‘A’ or ‘B,’ tasks. There are no negative consequences for not completing it."
+                    style="@style/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="“D” stands for “delegate.” You can assign this task to someone else who can do the job instead of you."
+                    style="@style/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="“E” stands for “eliminate, whenever possible.” You should eliminate every single activity you possibly can, to free up your time."
+                    style="@style/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="10 goals"
+                    style="@style/title"
+                    android:textColor="@color/colorGreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="Write down 10 goals that you want to accomplish."
+                    style="@style/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="One Goal"
+                    style="@style/title"
+                    android:textColor="@color/colorYellow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="If I could wave a magic wand, which one goal would have the greatest impact on my life, write 10 ways to be one step closer to that goal."
+                    style="@style/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="Everyday"
+                    style="@style/title"
+                    android:textColor="@color/colorOrange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView7"/>
+            <TextView
+                    android:text="This should be done every day to keep the mind focused."
+                    style="@style/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView8"/>
+            <TextView
+                    android:text="Brian Tracy"
+                    style="@style/title"
+                    android:textColor="@color/colorRed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView9"/>
+            <TextView
+                    android:text="ABCDE-Method and some texts from https://www.briantracy.com/"
+                    style="@style/text"
+                    android:autoLink="web"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView10"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

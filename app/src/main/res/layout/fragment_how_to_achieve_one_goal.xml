@@ -48,6 +48,20 @@
 
             <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
+
+                    android:textColorHint="@color/colorYellow"
+                    android:id="@+id/tiTitle"
+                    android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                        style="@style/editTextABCDE"
+                        android:textColor="@color/colorYellow"
+                        android:id="@+id/etTitle"
+                        android:hint="Major Goal"
+                />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
                     
                     android:textColorHint="@color/colorYellow"
                     android:id="@+id/ti1"
